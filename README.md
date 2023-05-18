@@ -1,2 +1,2 @@
 # CMPE_273_Back2Office
-Team Project for CMPE 275 GC1 under Professor Bhaskar
+Team Project for CMPE 273 under Professor Bhaskar
