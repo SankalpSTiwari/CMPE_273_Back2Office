@@ -34,10 +34,9 @@ To run the Back2Office application locally, follow these steps:
 4. Run the backend and frontend components using their respective commands.
 5. Access the application through a web browser.
 
-
-For further inquiries, contact Sankalp at work.sankalptiwari@gmail.com.
-
 For detailed setup instructions and usage guidelines, refer to the project's documentation.
 
 ## Contributions
 Contributions to the Back2Office project are welcome. If you encounter any bugs or have suggestions for improvements, please open an issue on the GitHub repository.
+
+For further inquiries, contact Sankalp at work.sankalptiwari@gmail.com.
