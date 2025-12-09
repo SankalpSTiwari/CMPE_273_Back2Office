@@ -40,3 +40,18 @@ For detailed setup instructions and usage guidelines, refer to the project's doc
 Contributions to the Back2Office project are welcome. If you encounter any bugs or have suggestions for improvements, please open an issue on the GitHub repository.
 
 For further inquiries, contact Sankalp at work.sankalptiwari@gmail.com.
+
+## Local run (macOS when port 5000 is taken)
+On some macOS systems, Control Center binds to port 5000. In that case, start the backend on 8080 and point the frontend to it:
+
+1) Backend (from `Back2Office/backend`):  
+   `./mvnw spring-boot:run -Dspring-boot.run.arguments=--server.port=8080`
+
+2) Frontend install (from `Back2Office/frontend/react_frontend`):  
+   `npm install --legacy-peer-deps`  
+   (yarn needs sudo here; npm with `--legacy-peer-deps` works)
+
+3) Frontend start:  
+   `BASE_URL=http://localhost:8080/ npm start`
+
+4) Open http://localhost:3000. The app will talk to the backend at http://localhost:8080.
